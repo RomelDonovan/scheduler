@@ -35,7 +35,7 @@ export default function useApplicationData() {
         })
     );
   }, []);
-
+  
   useRealTimeUpdate(dispatch);
 
   function bookInterview(id, interview) {
